@@ -1,0 +1,9 @@
+@import url(./__background/our-work__background.css);
+@import url(./__title/our-work__title.css);
+
+.our-work {
+    position: relative;
+    min-height: 600px;
+    background-color: #F1F1F2;
+    padding: 0;
+}
