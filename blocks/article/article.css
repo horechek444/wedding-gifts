@@ -1,0 +1,12 @@
+@import url(./__title/article__title.css);
+@import url(./__text/article__text.css);
+@import url(./__link/article__link.css);
+
+.article {
+    width: 570px;
+    padding: 48px 0 50px 48px;
+}
+
+.article:hover {
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05); 
+}

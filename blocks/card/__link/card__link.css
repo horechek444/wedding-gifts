@@ -4,9 +4,4 @@
     bottom: 24px;
     color: #000000;
     text-decoration: none;
-    transition: color 0.2s ease-in-out;
-}
-
-.card__link:hover {
-    color: rgba(247, 148, 30, 0.6);
 }

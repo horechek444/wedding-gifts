@@ -1,0 +1,8 @@
+.feedback__link {
+    display: block;
+    font-size: 18px;
+    line-height: 25px;
+    text-decoration: none;
+    color: white;
+    width: 91px;
+}

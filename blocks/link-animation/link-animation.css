@@ -1,0 +1,7 @@
+.link-animation {
+    transition: color 0.2s ease-in-out;
+}
+
+.link-animation:hover {
+    color: rgba(247, 148, 30, 0.6);
+}

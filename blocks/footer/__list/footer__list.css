@@ -1,0 +1,12 @@
+.footer__list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 9px 0 0;
+    width: 160px;
+}
+
+.footer__list:nth-of-type(2) {
+    width: 135px;
+}
