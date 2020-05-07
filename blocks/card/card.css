@@ -1,0 +1,19 @@
+@import url(./__background/card__background.css);
+@import url(./__heading/card__heading.css);
+@import url(./__link/card__link.css);
+
+.card {
+    position: relative;
+    width: 270px;
+    min-height: 436px;
+    background-color: #FAFAFA;
+}
+
+.card:not(:last-child) {
+    margin-right: 30px;
+}
+
+.card:hover {
+    background-color: white;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+}

@@ -1,7 +1,11 @@
 @import url(./__background/our-work__background.css);
+@import url(./__container/our-work__container.css);
 @import url(./__title/our-work__title.css);
+@import url(./__paragraph/our-work__paragraph.css);
+@import url(./__button/our-work__button.css);
 
 .our-work {
+    display: flex;
     position: relative;
     min-height: 600px;
     background-color: #F1F1F2;

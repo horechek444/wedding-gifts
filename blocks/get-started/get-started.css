@@ -1,0 +1,14 @@
+@import url(./__title_cover/get-started__title_cover.css);
+@import url(./__title/get-started__title.css);
+@import url(./__subtitle/get-started__subtitle.css);
+@import url(./__button/get-started__button.css);
+@import url(./__container/get-started__container.css);
+@import url(./__button/_find/get-started__button_find.css);
+@import url(./__button/_work/get-started__button_work.css);
+
+.get-started {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F7941E;
+    padding: 81px 235px 69px;
+}

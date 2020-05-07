@@ -1,0 +1,7 @@
+
+
+.blog {
+    display: flex;
+    flex-direction: column;
+    padding: 88px 135px 80px;
+}

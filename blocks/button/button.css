@@ -4,9 +4,13 @@
     border-radius: 5px;
     font-size: 18px;
     line-height: 22px;
+    font-weight: normal;
     transition: opacity 0.2s ease-out;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
 }
 
 .button:hover {
-    opacity: 0.7;
+    opacity: 0.5;
 }

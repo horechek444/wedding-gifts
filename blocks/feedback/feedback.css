@@ -1,0 +1,8 @@
+@import url(./__image/feedback__image.css);
+
+.feedback {
+    display: flex;
+    background-color: black;
+    color: white;
+    margin: 71px 0 40px;
+}

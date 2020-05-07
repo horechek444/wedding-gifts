@@ -1,0 +1,7 @@
+.gifts-reasons {
+    display: flex;
+    flex-direction: column;
+    padding: 96px 0 137px 0;
+    /* min-height: 724px; */
+    background-color: white;
+}
