@@ -13,6 +13,6 @@
 @import url(../article/article.css);
 @import url(../footer/footer.css);
 @import url(../root/root.css);
-@import url(/fonts/fonts.css);
+@import url(../../fonts/fonts.css);
 @import url(../button/button.css);
 @import url(../link-animation/link-animation.css);
