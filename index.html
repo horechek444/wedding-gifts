@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wedding gifts</title>
-    <link rel="stylesheet" href="./blocks/pages/index.css">
+    <link rel="stylesheet" href="./pages/index.css">
 </head>
 <body class="root">
     <header class="header">
-        <img src="./images/logo.svg" alt="Logo of web-site" class="logo logo_place_header">
+        <a href="#" class="logo__link_place_header">
+            <img src="./images/logo.svg" alt="Logo of web-site" class="logo logo_place_header">
+        </a>
         <nav class="header__navigation">
             <ul class="header__list">
                 <li class="header__item">
@@ -29,9 +31,11 @@
     </header>
     <main>
         <section class="gift-finding">
-            <h1 class="gift-finding__title">Find a gift for your wife or girlfriend</h1>
-            <p class="gift-finding__paragraph">Struggling to find a gift for your wife or girlfriend? No problem!</p>
-            <button class="button gift-finding__button">Find gift now</button>
+            <div class="gift-finding__container">
+                <h1 class="gift-finding__title">Find a gift for your wife or girlfriend</h1>
+                <p class="gift-finding__paragraph">Struggling to find a gift for your wife or girlfriend? No problem!</p>
+                <button class="button gift-finding__button">Find gift now</button>
+            </div>
             <img src="./images/gift-finding.png" alt="Photo of the bride and groom" class="gift-finding__background">
         </section>
 
@@ -51,7 +55,7 @@
 
         <section class="gifts-reasons">
             <h2 class="main-title">Gifts for all Occasions</h2>
-            <p class="main-subtitle">“Try our web app to find the best gifts for all occasions”</p>
+            <p class="main-subtitle gifts-reasons__subtitle">“Try our web app to find the best gifts for all occasions”</p>
             <div class="cards">
                 <div class="card">
                     <div class="card__background"></div>
@@ -89,7 +93,7 @@
 
         <section class="blog">
             <h2 class="main-title">Our Best Blogs Ever</h2>
-            <p class="main-subtitle">“Try our blog to find the best tips and tricks to select your gift”</p>
+            <p class="main-subtitle blog__subtitle">“Try our blog to find the best tips and tricks to select your gift”</p>
             <div class="feedback">
                 <div class="feedback__image"></div>
                 <div class="feedback__container">
@@ -122,7 +126,9 @@
                         <a href="#" class="footer__navigation-link link-animation">About Us</a>
                     </li>
                 </ul>
-                <img src="./images/logo-footer.svg" alt="Logo of web-site" class="logo logo_place_footer">
+                <a href="#" class="logo__link_place_footer">
+                    <img src="./images/logo-footer.svg" alt="Logo of web-site" class="logo logo_place_footer">
+                </a>
                 <ul class="footer__list">
                     <li class="footer__item">
                         <a href="#" class="footer__navigation-link link-animation">Services</a>

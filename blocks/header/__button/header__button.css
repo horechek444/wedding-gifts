@@ -1,4 +1,7 @@
 .header__button {
+    position: absolute;
+    top: 36.7px;
+    right: 34px;
     width: 150px;
     min-height: 43.5px;
     background-color: transparent;

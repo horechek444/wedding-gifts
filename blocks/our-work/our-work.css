@@ -6,8 +6,6 @@
 
 .our-work {
     display: flex;
-    position: relative;
-    min-height: 600px;
+    justify-content: space-between;
     background-color: #F1F1F2;
-    padding: 0;
 }

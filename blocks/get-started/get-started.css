@@ -9,6 +9,7 @@
 .get-started {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: #F7941E;
     padding: 81px 235px 69px;
 }

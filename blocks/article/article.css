@@ -5,6 +5,7 @@
 .article {
     width: 570px;
     padding: 48px 0 50px 48px;
+    cursor: pointer;
 }
 
 .article:hover {

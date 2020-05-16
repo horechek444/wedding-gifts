@@ -1,11 +1,11 @@
 @import url(./__background/gift-finding__background.css);
+@import url(./__container/gift-finding__container.css);
 @import url(./__title/gift-finding__title.css);
 @import url(./__paragraph/gift-finding__paragraph.css);
 @import url(./__button/gift-finding__button.css);
 
 .gift-finding {
-    position: relative;
-    min-height: 546px;
+    display: flex;
+    justify-content: space-between;
     background-color: #F1F1F2;
-    padding: 154px 0 0 162px;
 }
