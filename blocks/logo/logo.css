@@ -6,3 +6,7 @@
     width: 41px;
     height: 39px;
 }
+
+.logo:hover {
+    opacity: 0.5;
+}
